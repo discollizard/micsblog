@@ -1,0 +1,8 @@
+@import "mediaQueries.scss";
+
+@mixin responsify($rule, $sm, $md, $lg, $xl){
+    #{$rule}: $sm;
+    @include md{#{$rule}: $md;}
+    @include lg{#{$rule}: $lg;}
+    @include xl{#{$rule}: $xl;}
+}

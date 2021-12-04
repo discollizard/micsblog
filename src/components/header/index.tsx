@@ -6,11 +6,11 @@ interface Props {
     caption: string
 }
 
-export const Header:React.FC<Props> = (mamaco) => {
+export const Header:React.FC<Props> = (props) => {
     return (
         <header>
-            <h1>Mic's {mamaco.title}</h1>
-            <span>{mamaco.caption}</span>
+            <h1>Mic's {props.title}</h1>
+            <span>{props.caption}</span>
         </header>
     );
 }
