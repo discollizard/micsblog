@@ -8,11 +8,14 @@ import { Container } from './components/container';
 import { Paintings } from './components/paintings';
 import { Contact } from './components/contact';
 import './styles/global.scss';
+import "./misc/specialDatesAndCheatCodes";
+
+
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App App--vanilla">
         <Header title="art gallery" caption="itsa me mario"/>
         <Navbar paintingsAlias="Paintings" />
         <Container>

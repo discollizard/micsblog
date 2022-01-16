@@ -1,0 +1,18 @@
+@import "mixins/responsify.scss";
+
+#content{
+
+    text-align: center;
+
+    h1{
+        @include responsify('font-size', 6vw, 5vw, 4vw, 3vw);
+    }
+    
+    h3{
+        @include responsify('font-size', 5vw, 4vw, 3vw, 2vw);
+    }
+    
+    p{
+        @include responsify('font-size', 4vw, 3vw, 2vw, 1vw);
+    }
+}

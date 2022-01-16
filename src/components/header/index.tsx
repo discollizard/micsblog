@@ -8,7 +8,7 @@ interface Props {
 
 export const Header:React.FC<Props> = (props) => {
     return (
-        <header>
+        <header className='header--vanilla'>
             <h1>Mic's {props.title}</h1>
             <span>{props.caption}</span>
         </header>
