@@ -1,0 +1,9 @@
+@import "mixins/responsify.scss";
+
+h3{
+    @include responsify('font-size', 7vw, 6vw, 5vw, 4vw);
+}
+
+span{
+    @include responsify('font-size', 6vw, 5vw, 4vw, 3vw);
+}

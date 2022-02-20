@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+html, body, #app, #app>div {
+    height: 100%
+}
+
 .App--vanilla{
     background-color: white;
 }
@@ -8,4 +14,6 @@
 
 .App--cyber{
     background-color: black;
+    color: greenyellow !important;
+    font-family: 'VT323';
 }

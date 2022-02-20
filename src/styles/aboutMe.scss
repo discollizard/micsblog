@@ -9,10 +9,10 @@
     }
     
     h3{
-        @include responsify('font-size', 5vw, 4vw, 3vw, 2vw);
+        @include responsify('font-size', 5vw, 4vw, 3vw, 3vw);
     }
     
     p{
-        @include responsify('font-size', 4vw, 3vw, 2vw, 1vw);
+        @include responsify('font-size', 4vw, 3vw, 2vw, 2vw);
     }
 }

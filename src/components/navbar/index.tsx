@@ -9,7 +9,7 @@ interface Props {
 export const Navbar:React.FC<Props> = (props) => {
     return (
         <nav>
-            <div className="wrapper">
+            <div className="wrapper--vanilla">
                 <Link to="/">Home</Link>
                 <Link to="/paintings">{props.paintingsAlias}</Link>
                 <Link to="/about">About me</Link>
